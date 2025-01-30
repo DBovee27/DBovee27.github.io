@@ -1,20 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-image: url(../Assets/Images/PortfolioSite.png);
     background-color: #311047;
     background-size: 65%;
     justify-content: center;
     background-position-x: center;
-    background-repeat: no-repeat    ;
+    background-repeat: no-repeat;
+    min-height: 100vw;
+    height: 200vw;
 }
 
-@media (max-width: 800px) {
+#background {
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 1200px) {
   body {
-    background-size: 150vw; /* Increase the size when the width is smaller */
+    background-size: 100%;
+    height: 300vw;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 850px) {
   body {
-    background-size: 200vw; /* Even larger when the screen is narrower */
+    background-size: 120%; 
+    height: 375vw;
   }
+}
+
+#Ap {
+  position: absolute;
+  transform: translateX(-50%);
 }
