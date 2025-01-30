@@ -1,0 +1,24 @@
+current festures() {
+achtergrond 
+}
+
+
+in progress() {
+parallax scrolling
+}
+
+planned features() {
+player sprite
+mijn werk (schilderij)
+uitkijk naar de toekomst (raampje)
+about (?)
+contactgegevens (onderaan) werk mail, persoonlijke mail, etc
+}
+
+ideas() {
+start screen als oude pokemon game (press any key to continue)
+}
+
+scrapped() {
+
+}
