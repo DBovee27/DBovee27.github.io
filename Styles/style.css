@@ -1,0 +1,14 @@
+body {
+    background-image: url(../Assets/Images/PortfolioSite.png);
+    background-color: #311047;
+    background-size: 65%;
+    justify-content: center;
+    background-position-x: center;
+    background-repeat: no-repeat    ;
+}
+
+@media screen and (max-width: 90vw) { 
+    body {
+        background-size: 120%;
+    }
+}
