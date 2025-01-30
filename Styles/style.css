@@ -7,8 +7,14 @@ body {
     background-repeat: no-repeat    ;
 }
 
-@media screen and (max-width: 90vw) { 
-    body {
-        background-size: 120%;
-    }
+@media (max-width: 800px) {
+  body {
+    background-size: 150vw; /* Increase the size when the width is smaller */
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background-size: 200vw; /* Even larger when the screen is narrower */
+  }
 }
