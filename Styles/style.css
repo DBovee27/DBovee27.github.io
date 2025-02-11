@@ -36,3 +36,8 @@ body {
   position: absolute;
   transform: translateX(-50%);
 }
+
+#player {
+  height: 50px;
+  width: 50px;
+}
